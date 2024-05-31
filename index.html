@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-Hants">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wilson的個人網頁</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/bubble.css" />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background: linear-gradient(to right, #f5f5f5, #e0f7fa);
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+      }
+      nav {
+        background-color: #007bff; /* 设置导航栏背景颜色 */
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        margin: 0 15px;
+      }
+      nav ul li a {
+        color: #fff; /* 设置文字颜色为白色 */
+        text-decoration: none;
+        padding: 15px 20px;
+        display: block;
+      }
+      nav ul li a:hover {
+        background-color: #0056b3; /* 设置悬停效果 */
+      }
+      main {
+        margin-top: 60px; /* 确保主内容不被固定导航栏遮挡 */
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">關於 Jessi</a></li>
+        <li>
+          <a target="_blank" href="./contact.html">Hobby</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/JessiYang0">Github</a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/jiesi-yang-9218411aa/details/featured/"
+            >Linkedin
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div id="background-wrap">
+        <div class="bubble x1"></div>
+        <div class="bubble x2"></div>
+        <div class="bubble x3"></div>
+        <div class="bubble x4"></div>
+        <div class="bubble x5"></div>
+        <div class="bubble x6"></div>
+        <div class="bubble x7"></div>
+        <div class="bubble x8"></div>
+        <div class="bubble x9"></div>
+        <div class="bubble x10"></div>
+      </div>
+
+      <section class="main-area">
+        <div class="info">
+          <h1>Hi, I am Jessi!</h1>
+          <h2>
+            I am a full-stack web developer and AI engineer from Taiwan,
+            specializing in full-stack web development, machine learning, and
+            more.。
+          </h2>
+        </div>
+        <div class="img-area">
+          <img src="./pictures/綠背景照片.png" alt="個人照片" />
+        </div>
+      </section>
+      <section class="about-me">
+        <section class="description">
+          <h2>About me</h2>
+          <p>
+            I am studying Software Development at Utah University and completed
+            my master's degree at the AIML Lab of National Chiao Tung
+            University, with a research focus on time series forecasting and
+            analysis. In my spare time, I work on web development side
+            projects.。
+          </p>
+
+          <div class="progress-bar-area">
+            <p>
+              Data Analytics: R, SQL, Matplotlib, Pandas, Machine Learning,
+              Neural Networks
+            </p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 100%"
+              ></div>
+            </div>
+            <p>
+              Web Development: HTML/CSS, Next.js, Node.js, Express.js, MangoDB,
+              React
+            </p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 90%"
+              ></div>
+            </div>
+            <p>Technology: AWS, Docker, MLOps, Git</p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 100%"
+              ></div>
+            </div>
+            <p>Optimization: Meta-Heuristic, Operations Research</p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 95%"
+              ></div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="resume">
+        <section class="table">
+          <table>
+            <tr style="border-top: 2px solid gray">
+              <td style="width: 20%">Introdction</td>
+              <td style="width: 80%">
+                Proficient in C++ and Python, with experience in web development
+                and front-end technologies。
+              </td>
+            </tr>
+            <tr>
+              <td>School</td>
+              <td>University of Utah Software Development</td>
+            </tr>
+            <tr>
+              <td>WORK EXPERIENCE</td>
+              <td>
+                <ol>
+                  <li>
+                    Taiwan Semiconductor Manufacturing Co., Ltd (TSMC) RD
+                    engineer
+                  </li>
+                  <li>National Chiao Tung University Research Assistant</li>
+                </ol>
+              </td>
+            </tr>
+            <tr>
+              <td>SELECTIVE PROJECTS</td>
+              <td>
+                <ul>
+                  <li>Natural language QA chatbot</li>
+                  <li>Reinforcement Learning with AI game</li>
+                  <li>Yolo-V8 Real-Time Car Object Detection</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>PUBLICATION</td>
+              <td>
+                <ul>
+                  <li>
+                    Chien-Liang Liu, Tzu-Yu Chang, Jie-Si Yang, Kai-Bin Huang,
+                    “A deep learning sequence model based on self-attention and
+                    convolution for wind power prediction”, 2023
+                  </li>
+                  <li>
+                    Chien-Liang Liu, Chun-Jan Tseng, Tzu-Hsuan Huang, Jie-Si
+                    Yang, Kai-Bin Huang, "Electricity load forecasting: A
+                    multi-task learning model for building electrical load
+                    prediction," Energy and Buildings, 2019/li>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>COMPETITION</td>
+              <td>
+                <ul>
+                  <li>
+                    Chung-Yueh Thesis Award Competition. Thesis: Long-term
+                    Building Load Forecasting using Spatio-Temporal Attention
+                    Model . Honor Award
+                  </li>
+                  <li>ORSTW Thematic competition. Honorable Mention</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </section>
+        <section class="picture">
+          <img
+            src="./pictures/Me.jpg"
+            alt="個人照片"
+            ,
+            width="250"
+            height="350"
+          />
+          <div class="PinkRect"></div>
+          <div class="greenRect2"></div>
+          <div class="greenRect3"></div>
+        </section>
+      </section>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"
+      integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./app.js"></script>
+    <!-- Code injected by live-server -->
+    <script>
+      // <![CDATA[  <-- For SVG support
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; sheets.length > i; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+        );
+      }
+      // ]]>
+    </script>
+  </body>
+</html>
